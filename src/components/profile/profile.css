@@ -1,0 +1,58 @@
+.profile-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    background-color: #15143E;
+}
+
+.profile-parent{
+    display: flex;
+    align-items: center;
+}
+
+.profile-details-name{
+    color: #ffffff;
+}
+
+.profile-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+    color: #ffffff;
+}
+
+
+.profile-role-tagline{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.profile-options button{
+    color: #15143E;
+    background-color: #ffffff;
+    margin:20px 10px;
+    width:9vw;
+}
+
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px #ffffff;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 0 0px 0 100px;
+}
+
+.profile-picture-bg{
+    height: 92%;
+    width: 92%;
+    background-image: url("../../assets/me.jpg");
+    background-size: cover;
+    border-radius: 50% ;
+    background-repeat: no-repeat;
+    background-position: center;
+}

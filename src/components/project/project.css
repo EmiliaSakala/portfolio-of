@@ -1,0 +1,23 @@
+.project{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid grey;
+    border-radius: 10px ;
+    overflow: hidden;
+}
+
+.browser{
+   height: 20px;
+   background-color: red;
+   display: flex;
+   align-items: center;
+}
+
+.circle{
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   margin: 3px;
+   background-color: white; 
+}

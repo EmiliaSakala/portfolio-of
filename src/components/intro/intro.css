@@ -1,6 +1,7 @@
 .intro{
     display: flex;
     height: 100vh;
+    background-color: #15143e;
 }
 
 .left{
@@ -21,10 +22,16 @@
 .h2{
     font-size: 30px;
     font-weight: 300;
+    color:#ffffff;
 }
 
 .name{
     font-size: 60px;
+    color: #ffffff;
+}
+
+.desc{
+    color: #ffffff;
 }
 
 .tittle-wrapper{
@@ -56,11 +63,20 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: #000080;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.buttons{
+    display: flex;
+}
+
+.btn{
+    background-color: #ffb130;
+}
+
 
 .right{
     flex: 1;
@@ -75,7 +91,7 @@
     right: 0;
 }
 
-.bg{
+/* .bg{
     clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
     background-color: #000080;
     width: 100%;
@@ -83,4 +99,4 @@
     position: absolute;
     top: 0;
     right: 0;
-}
+} */

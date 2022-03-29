@@ -20,8 +20,12 @@ const Intro = () => {
                      <div className="desc">
                      I write well designed, testable, efficient code by 
                      using best software development practices
-                         </div>
-            </div>    
+                    </div>  
+            </div> 
+            <div className="buttons">
+                        <a href="#" className="btn">Hire Me</a>
+                        <a href="#" >Get Resume</a>
+                    </div>   
         </div>
         <div className="right">
             <div className="bg"></div>
