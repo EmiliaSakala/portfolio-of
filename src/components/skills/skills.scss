@@ -1,0 +1,48 @@
+.skills{
+    background-color: #ffffff;
+    padding: 30px 0 0 0;
+    text-align: center;
+    h2{
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+
+        .card{
+            width: 200px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            background-color: white;
+            border: 1px solid #15143e;
+
+            .icon{
+                font-size: 40px;
+            }
+
+            p{
+                font-size: 20px;
+                padding-top: 20px;
+                color: #15143e;
+                font-weight: 500;
+            }
+
+            &:hover{
+                transform: scale(1.02);
+                transition: all 1s ease;
+            }
+            
+        }
+    }
+}
