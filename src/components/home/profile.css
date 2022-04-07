@@ -112,6 +112,9 @@
         justify-content: space-between;
     }
 
+    .profile-options button{
+        z-index: 0;
+    }
     .profile-details{
         margin: 25px 0 0;
     }
