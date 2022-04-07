@@ -84,3 +84,19 @@
 }
 
 
+@media screen and (max-width:992px){
+    .wrapper{
+        .left{
+            .itemContainer{
+                display: none !important;
+            }
+        }
+
+        // .right{
+        //     .hamburger{
+        //         position: absolute;
+        //         right: 90px;
+        //     }
+        // }
+    }
+}
