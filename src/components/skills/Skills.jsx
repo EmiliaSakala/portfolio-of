@@ -10,6 +10,7 @@ import {FaWordpress} from 'react-icons/fa'
 import {FaGitAlt} from 'react-icons/fa'
 import {FaJs} from 'react-icons/fa'
 import {SiAdobexd} from 'react-icons/si'
+import { IconContext } from 'react-icons'
 
 
 export default function Skills() {
@@ -20,15 +21,21 @@ export default function Skills() {
      
         <div className="container">
             <div className="card">
-               <FaHtml5 className="icon"/>
+               <IconContext.Provider value={{color: 'orange-red'}}>
+               <FaHtml5 className="icon" />
+               </IconContext.Provider>
                <p>HTML</p>
             </div>
             <div className="card">
+            <IconContext.Provider value={{color: 'blue'}}>
                <FaCss3  className="icon"/>
+               </IconContext.Provider>
                <p>Css</p>
             </div>
             <div className="card">
+               <IconContext.Provider value={{color: 'pink'}}>
                <FaSass className="icon"/>
+               </IconContext.Provider>
                <p>Sass</p>
             </div>
             <div className="card">

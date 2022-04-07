@@ -2,11 +2,11 @@ import './menu.scss';
 
 import React from 'react';
 
-const Menu = ({menuOpen, setMenuOpen}) => {
+export default function Menu({menuOpen, setMenuOpen}) {
     return (
         <div className={"menu " + (menuOpen && "active")}>
             <ul>
-                <li onClick={()=>setMenuOpen(true)}>
+                <li onClick={()=>setMenuOpen(false)}>
                     <a href="#">About</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
@@ -23,5 +23,3 @@ const Menu = ({menuOpen, setMenuOpen}) => {
         </div>
     );
 }
-
-export default Menu;

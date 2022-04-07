@@ -9,10 +9,11 @@ import Topbar from './components/Topbar/Topbar';
 import Menu from './components/menu/Menu';
 import Portfolio from './components/portfolio/Portfolio';
 import Skills from './components/skills/Skills';
+import Footer from './components/footer/Footer';
 
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(true)
+  const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="App">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
@@ -21,6 +22,7 @@ function App() {
      <Portfolio />
      <About />
      <Skills />
+     <Footer />
      
     </div>
   );
