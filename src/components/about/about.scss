@@ -1,0 +1,28 @@
+.about{
+
+.container{
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 50%;
+    }
+
+    .about-text{
+
+        .about-details{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            text-align: center;
+            
+
+            p{
+                padding: 20px 50px;
+            }
+        }
+    }
+}
+
+   
+}

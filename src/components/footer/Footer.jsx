@@ -3,6 +3,9 @@ import './footer.css'
 import {FaEnvelope} from 'react-icons/fa';
 import {FaPhoneAlt} from 'react-icons/fa';
 import {FaMapMarker} from 'react-icons/fa';
+import {FaLinkedin} from 'react-icons/fa';
+import {FaTwitter} from 'react-icons/fa';
+import {FaFacebook} from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -12,7 +15,10 @@ const Footer = () => {
                 <p>Lorem ipsum dolor sit, amet consectetur
                      adipisicing elit. 
                     Ad et in odit cum, nam voluptas?</p>
-            </div>
+                    <span><FaFacebook /></span>
+                    <span><FaLinkedin /></span>
+                    <span><FaTwitter /></span>
+                    </div>
             <div className="explore">
                <h4>Explore</h4>
                <ul>

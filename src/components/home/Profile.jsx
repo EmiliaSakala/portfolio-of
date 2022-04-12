@@ -1,6 +1,10 @@
 import "./profile.css";
 import React from 'react';
 import Typical from 'react-typical';
+import {FaTwitter} from 'react-icons/fa';
+import {FaLinkedin} from 'react-icons/fa';
+import {FaEnvelope} from 'react-icons/fa';
+
 
 
 function Profile() {
@@ -12,10 +16,10 @@ function Profile() {
                     <div className="colz-icon">
                         
                     <a href="#">
-                        <i className="fa fa-facebook-square"></i>
+                        <FaLinkedin />
                     </a>
                     <a href="#">
-                        <i className="fa fa-facebook-square"></i>
+                        <FaTwitter />
                     </a>
                     <a href="#">
                         <i className="fa fa-facebook-square"></i>
