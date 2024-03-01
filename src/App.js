@@ -1,7 +1,7 @@
 
 import './App.css';
 import { useState } from 'react';
-import About from './components/about/About';
+
 // import Intro from './components/intro/Intro';
 import Profile from './components/home/Profile';
 import Projects from './components/Projects/Projects';
@@ -10,6 +10,8 @@ import Menu from './components/menu/Menu';
 import Portfolio from './components/portfolio/Portfolio';
 import Skills from './components/skills/Skills';
 import Footer from './components/footer/Footer';
+import About from './components/about/About';
+import Contact from './components/contact/Contact';
 
 
 function App() {
@@ -19,9 +21,10 @@ function App() {
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Profile />
+      <About />
+      <Skills />
      <Portfolio />
-     <About />
-     <Skills />
+     <Contact />
      <Footer />
      
     </div>

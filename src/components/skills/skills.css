@@ -1,0 +1,57 @@
+.skills {
+  background-color: #f5f7f8;
+  padding: 30px 0 0 0;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 50px;
+}
+
+.skills p {
+  font-size: 20px;
+}
+
+.skills .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills .container .card {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+  background-color: #15143e;
+  border: 1px solid #fff;
+}
+
+.skills .container .card p {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.skills .container .card:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+/*# sourceMappingURL=skills.css.map */

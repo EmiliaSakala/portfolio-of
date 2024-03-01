@@ -67,7 +67,7 @@ function Profile() {
                     <div className="profile-options">
                         <button className="btn primary-btn">
                             {""}
-                            Hire Me {""} </button>
+                            Reach Out {""} </button>
                             <a href="ex.pdf" download="Emilia ex.pdf">
                             <button className="btn highlighted-btn">Get Resume</button>
                             </a>

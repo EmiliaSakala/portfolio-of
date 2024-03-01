@@ -13,25 +13,29 @@
 }
 
 .profile-details-name{
-    color: #ffffff;
+    color: #fff;
+}
+
+.profile-details-name .primary-text{
+    font-size: 25px;
 }
 
 .profile-details-role{
     display: flex;
     flex-direction: column;
-    margin: 14px 0 24px 0;
-    color: #ffffff;
+    margin: 5px 0 4px 0;
+    color: #fff;
 }
 
 
 .profile-role-tagline{
-    font-size: 25px;
-    color: #ffffff;
+    font-size: 0px;
+    color: #fff;
 }
 
 .profile-options button{
     color: #15143E;
-    background-color: #ffffff;
+    background-color: #fff;
     margin:20px 10px;
     width:9vw;
 }
@@ -40,7 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 1px 0px 0px #ffffff;
+    box-shadow: 0 1px 0px 0px #fff;
     border-radius: 50%;
     height: 380px;
     width: 380px;

@@ -1,0 +1,91 @@
+.portfolio {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+}
+
+.portfolio h1 {
+  font-size: 50px;
+}
+
+.portfolio p {
+  font-size: 20px;
+  padding: 20px;
+  width: 60%;
+  text-align: center;
+}
+
+.portfolio .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.portfolio .container a {
+  text-decoration: none;
+}
+
+.portfolio .container .card {
+  width: 350px;
+  height: 300px;
+  margin: 10px 20px;
+  background-color: #fff;
+  color: white;
+  position: relative;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.portfolio .container .card img {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.portfolio .container .card .text {
+  text-align: left;
+  font-size: 20px;
+  padding: 20px 10px;
+  color: black;
+}
+
+.portfolio .wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.portfolio .wrapper .project {
+  width: 100%;
+  border: none;
+}
+
+.portfolio .wrapper .project img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=portfolio.css.map */

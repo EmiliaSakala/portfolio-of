@@ -1,0 +1,18 @@
+.contact-form{
+    background-color: red;
+    color: white;
+    padding: 20px;
+
+}
+
+input, textarea{
+    width: 100%;
+    border: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    padding: 50px 0;
+}

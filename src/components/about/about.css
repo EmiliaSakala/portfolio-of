@@ -1,0 +1,59 @@
+.about {
+  padding-top: 20px;
+}
+
+.about .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .container img {
+  width: 50%;
+}
+
+.about .container .about-text {
+  padding: 0 50px;
+}
+
+.about .container .about-text h2 {
+  font-size: 50px;
+}
+
+.about .container .about-text .role {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about .container .about-text .summary {
+  padding: 10px 30px 10px 0;
+}
+
+.about .container .about-text .about-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.about .container .about-text .about-details p {
+  padding: 20px 0px;
+  font-weight: bold;
+}
+
+.about .container .about-text .about-details p span {
+  font-weight: normal;
+}
+
+.about .container .about-text .about-details p .email {
+  color: red;
+}
+/*# sourceMappingURL=about.css.map */

@@ -21,50 +21,38 @@ export default function Skills() {
      
         <div className="container">
             <div className="card">
-               <IconContext.Provider value={{color: 'orange-red'}}>
-               <FaHtml5 className="icon" />
-               </IconContext.Provider>
                <p>HTML</p>
             </div>
+           
             <div className="card">
-            <IconContext.Provider value={{color: 'blue'}}>
-               <FaCss3  className="icon"/>
-               </IconContext.Provider>
-               <p>Css</p>
+               <p>CSS</p>
+            </div>
+
+            <div className="card">
+               <p>SASS</p>
+            </div>
+
+            <div className="card">
+               <p>PYTHON</p>
             </div>
             <div className="card">
-               <IconContext.Provider value={{color: 'pink'}}>
-               <FaSass className="icon"/>
-               </IconContext.Provider>
-               <p>Sass</p>
+               <p>REACT</p>
             </div>
+
             <div className="card">
-               <FaPython className="icon"/>
-               <p>Python</p>
+               <p>JS</p>
             </div>
+
             <div className="card">
-               <FaReact className="icon"/>
-               <p>React</p>
+               <p>GITHUB</p>
             </div>
+
             <div className="card">
-               <FaGitAlt className="icon"/>
-               <p>Git</p>
+               <p>WORDPRESS</p>
             </div>
+
             <div className="card">
-               <FaGithub className="icon"/>
-               <p>Github</p>
-            </div>
-            <div className="card">
-               <FaWordpress className="icon"/>
-               <p>Wordpress</p>
-            </div>
-            <div className="card">
-               <FaJs className="icon"/>
-               <p>Js</p>
-            </div>
-            <div className="card">
-               <SiAdobexd className="icon"/>
-               <p>Adobe Xd</p>
+               <p>ADOBE XD</p>
             </div>
             
         </div>
