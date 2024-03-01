@@ -56,4 +56,22 @@
 .about .container .about-text .about-details p .email {
   color: red;
 }
+
+@media (max-width: 600px) {
+  .about .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .about .container .about-text h2 {
+    font-size: 25px;
+  }
+  .about .container .about-text .role {
+    font-size: 17px;
+  }
+  .about .container .about-text .summary {
+    padding: 10px 0px 10px 0;
+  }
+}
 /*# sourceMappingURL=about.css.map */

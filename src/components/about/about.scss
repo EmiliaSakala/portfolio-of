@@ -49,3 +49,25 @@
 
    
 }
+
+
+@media(max-width:600px){
+    .about .container {
+    
+        flex-direction: column-reverse;
+        .about-text{
+            h2{
+                font-size: 25px;
+            }
+
+            .role{
+                font-size: 17px;
+            }
+            .summary {
+                padding: 10px 0px 10px 0;
+            }
+        }
+    }
+
+    
+}

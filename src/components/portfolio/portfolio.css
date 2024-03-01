@@ -88,4 +88,27 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+@media (max-width: 600px) {
+  .portfolio h1 {
+    font-size: 25px;
+  }
+  .portfolio p {
+    font-size: 17px;
+    padding: 2px;
+    width: 100%;
+    text-align: center;
+  }
+  .portfolio .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  .portfolio .wrapper .project {
+    width: 94%;
+  }
+}
 /*# sourceMappingURL=portfolio.css.map */

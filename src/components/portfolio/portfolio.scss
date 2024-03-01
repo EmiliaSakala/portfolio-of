@@ -87,3 +87,31 @@
     
     
 }
+
+@media(max-width:600px){
+    .portfolio{
+
+     h1 {
+        font-size: 25px;
+    }
+  
+  p{
+    font-size: 17px;
+    padding: 2px;
+    width: 100%;
+    text-align: center;
+  }  
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+
+    .project{
+        width: 94%;
+    }
+}
+}
+
+}
