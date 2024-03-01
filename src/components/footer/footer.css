@@ -57,5 +57,29 @@
 @media screen and (max-width:768px) {
     .footer{
         flex-direction: column;
-    }    
+        padding: 20px 0;
+    } 
+    
+    .footer .infor{
+        padding-bottom: 20px;
+    }
+    
+    .footer .infor h3{
+        font-size: 30px;
+    }
+    .footer .infor p{
+        padding: 20px;
+    }
+
+    .footer .explore h4{
+        font-size: 18px;
+    }
+
+    .footer .explore{
+        padding-bottom: 20px
+    }
+
+    .footer .explore ul li a{
+        font-size: 15px;
+    }
 }

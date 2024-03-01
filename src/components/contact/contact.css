@@ -16,3 +16,34 @@ input, textarea{
     display: flex;
     padding: 50px 0;
 }
+
+
+@media(max-width:600px){
+    .container{
+        flex-direction: column;padding: 20px;
+    }
+
+    .container .form input, textarea {
+        width: 90%;
+        border: 0;
+        padding: 10px 12px;
+        box-sizing: border-box;
+        margin: 10px 0;
+    }
+
+    .container .form p{
+        padding-bottom: 25px;
+        font-weight: bold;
+    }
+
+    .container .form .send{
+        background-color: #15143e;
+        color: #fff;
+    }
+
+    .container .text{
+        width: 96%;
+        padding: 20px 0;
+    }
+   
+}
