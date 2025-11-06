@@ -1,92 +1,53 @@
-// import React from 'react';
-// import { useState } from 'react';
-import emailjs from 'emailjs-com'
-import './contact.css'
-import responsive from '../../img/responsive.png';
 
+import './contact.css';
+import { useState } from 'react';
+import responsive  from '../../assets/responsive.png';
 
-// const Contact = () => {
+export default function Contact() {
+  const [result, setResult] = useState("");
 
-//     const [name, setName] = useState('');
-//     const [email, setEmail] = useState('');
-//     const [message, setMessage] = useState('');
-//     const [emailSent, setEmailSent] = useState(false);
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+    formData.append("access_key", "2f312c1c-1b8f-48c3-92a3-feead09ed4fe");
 
-//     const submit = () => {
-//         if (name && email && message) {
-//             const serviceId = '12345678';
-//             const templateId = 'template1';
-//             const userId = 'ZRN0v631dWYeoIltu';
-//             const templateParams = {
-//                 name,
-//                 email,
-//                 message
-//             };
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
 
-//             emailjs.send(serviceId, templateId,templateParams,userId)
-//             .then(response => console.log(response))
-//             .then(error => console.log(error));
+    const data = await response.json();
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      setResult("Error");
+    }
+  };
 
-//             setName('');
-//             setEmail('');
-//             setMessage('');
-//             setEmailSent(true);
-//         } else {
-//             alert('Please fill in all fields.');
-//         }
-//     }
+  return (
+    <div className="container">
+        <div className="form">
+            <p>You have a project in mind? Do get in touch with me</p>
+            <form onSubmit={onSubmit}>
+            <label htmlFor="name">Name</label>
+            <input type="text" name="name" required/>
 
-//     return (
-//         <div className="contact-form">
-//             <input type="text" placeholder="Your name" value={name} onChange={e => setName(e.target.value)}/>
-//             <input type="email" placeholder="Your email" value={email} onChange={e => setEmail(e.target.value)}/>
-//             <textarea name="" placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
-//             <button onClick={submit}>Send Message</button>
+            <label htmlFor="email">Email</label>
+            <input type="email" name="email" required/>
 
-//             <span className={emailSent ? 'visible' : null}>Thank you for getting in touch with me, i'll get back to you shortly!</span>
+            <label htmlFor="message">Message</label>
+            <textarea name="message" required></textarea>
 
-//         </div>
-//     );
-// }
-
-// export default Contact;
-
-import React, { useRef } from 'react';
-
-
-const Contact = () => {
-    const form = useRef();
-
-    const sendEmail = (e) => {
-        e.preventDefault();
-
-        emailjs.sendForm('12345678', 'template1', form.current, 'ZRN0v631dWYeoIltu')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-    };
-
-    return (
-        <div className="container">
-            <div className="form">
-                <p>You have a project in mind? Do get in touch with me.</p>
-                <form ref={form} onSubmit={sendEmail}>
-                    <label>Name</label>
-                    <input type="text" name="user_name" />
-                    <label>Email</label>
-                    <input type="email" name="user_email" />
-                    <label>Message</label>
-                    <textarea name="message" />
-                    <input type="submit" value="Send" className='send' />
-                </form>
-            </div>
-            <div className="text">
-                <img src={responsive} alt="" />
-            </div>
+            <button type="submit" className="send">Submit Form</button>
+            <span>{result}</span>
+            </form>
         </div>
-    );
-};
 
-export default Contact;
+        <div className="text">
+            <img src={responsive} alt="" />
+        </div>
+    </div>
+  );
+}

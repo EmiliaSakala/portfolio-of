@@ -50,7 +50,12 @@
   margin-left: 30px;
 }
 
-.topbar .wrapper .left .itemContainer span {
+.topbar .wrapper .left .itemContainer a {
+  text-decoration: none;
+  color: #15143e;
+}
+
+.topbar .wrapper .left .itemContainer a span {
   font-size: 15px;
   font-weight: 500;
 }

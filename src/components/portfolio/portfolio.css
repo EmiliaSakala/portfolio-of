@@ -71,8 +71,8 @@
 .portfolio .wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (2fr)[2];
+      grid-template-columns: repeat(2, 2fr);
   grid-gap: 20px;
   padding: 20px;
 }

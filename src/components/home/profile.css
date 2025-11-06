@@ -36,7 +36,7 @@
 .profile-options button{
     color: #15143E;
     background-color: #fff;
-    margin:20px 10px;
+    margin:0px 10px;
     width:9vw;
 }
 
@@ -54,7 +54,7 @@
 .profile-picture-bg{
     height: 92%;
     width: 92%;
-    background-image: url("../../assets/me.jpg");
+    background-image: url("../../assets/profile.jpg");
     background-size: cover;
     border-radius: 50% ;
     background-repeat: no-repeat;

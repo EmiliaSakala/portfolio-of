@@ -31,10 +31,16 @@
                 align-items: center;
                 margin-left: 30px;
 
-                span{
+                a{
+                    text-decoration: none;
+                    color: #15143e;
+                    span{
                     font-size: 15px;
                     font-weight: 500;
                 }
+
+             }
+                
             }
     }
 

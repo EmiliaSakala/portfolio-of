@@ -1,7 +1,7 @@
 import "./profile.css";
 import React from 'react';
 import Typical from 'react-typical';
-import {FaTwitter} from 'react-icons/fa';
+import {FaGit, FaGithub} from 'react-icons/fa';
 import {FaLinkedin} from 'react-icons/fa';
 import {FaEnvelope} from 'react-icons/fa';
 
@@ -15,11 +15,11 @@ function Profile() {
                 <div className="colz">
                     <div className="colz-icon">
                         
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/emiliasakala/">
                         <FaLinkedin />
                     </a>
-                    <a href="#">
-                        <FaTwitter />
+                    <a href="https://github.com/EmiliaSakala">
+                        <FaGithub />
                     </a>
                     <a href="#">
                         <i className="fa fa-facebook-square"></i>
@@ -46,11 +46,9 @@ function Profile() {
                                 <Typical 
                                 loop={Infinity}
                                 steps={[
-                                    "Web Developer",
+                                    "Software Developer",
                                     1000,
                                     "Web Designer",
-                                    1000,
-                                    "Writter",
                                     1000,
                                     "Digital Marketer",
                                     1000,
