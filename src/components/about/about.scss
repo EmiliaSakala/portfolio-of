@@ -51,6 +51,19 @@
 }
 
 
+@media screen and (max-width: 810px){
+    .about .container .about-text{
+        padding: 10px;
+    } 
+    
+    .about .container img{
+        width: 100%;
+    }
+
+    
+}
+
+
 @media(max-width:600px){
     .about .container {
     

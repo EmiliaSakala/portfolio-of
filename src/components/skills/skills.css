@@ -55,6 +55,13 @@
   transition: all 1s ease;
 }
 
+
+@media screen and (max-width: 810px){
+  .skills .container{
+    flex-direction: row;
+  }
+}
+
 @media (max-width: 600px) {
   .skills h2 {
     font-size: 25px;
@@ -63,10 +70,11 @@
     font-size: 17px;
   }
   .skills .container {
+    flex-direction: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 10px 0;
+     padding: 10px 0;
   }
 }
 /*# sourceMappingURL=skills.css.map */
