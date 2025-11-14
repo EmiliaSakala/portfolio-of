@@ -1,0 +1,91 @@
+.skills-section {
+  background: #0e0e18;
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.skills-section .skills-header {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+.skills-section .skills-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.skills-section .skills-header h2 span {
+  color: #ff7846;
+}
+
+.skills-section .skills-header p {
+  margin-top: 1rem;
+  color: #b3b3b3;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.skills-section .skills-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(220px, 1fr))[4];
+      grid-template-columns: repeat(4, minmax(220px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.skills-section .skill-card {
+  background: #141427;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 260px;
+  -webkit-box-shadow: 0 0 10px rgba(255, 120, 70, 0.1);
+          box-shadow: 0 0 10px rgba(255, 120, 70, 0.1);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.skills-section .skill-card:hover {
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+}
+
+.skills-section .skill-card .icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ff7846;
+}
+
+.skills-section .skill-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.skills-section .skill-card .progress-bar {
+  width: 100%;
+  height: 10px;
+  background: #2c2c3e;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 0.6rem;
+}
+
+.skills-section .skill-card .progress-bar .progress-fill {
+  height: 100%;
+  background: #ff7846;
+  border-radius: 5px;
+  -webkit-transition: width 1.5s ease-in-out;
+  transition: width 1.5s ease-in-out;
+}
+
+.skills-section .skill-card .percent-label {
+  font-size: 0.9rem;
+  color: #ff7846;
+  font-weight: 600;
+}
+/*# sourceMappingURL=techstack.css.map */

@@ -1,68 +1,74 @@
-import React from 'react';
-import './portfolio.scss'
-import debut1 from '../../img/debut1.png';
-import standard1 from '../../img/standard1.png';
-import chatbot from '../../img/chatbot.png';
-import food1 from '../../img/food1.png';
+import React from "react";
+import "./portfolio.scss";
+import debutCapital from "../../assets/debutCapital.png"
+import standard from "../../assets/standart freight.png"
+import supreme from "../../assets/supreme pest.png"
+import foodweb from "../../assets/foodweb.png"
 
 
-export default function Portfolio(){
-    return(
-        <div className="portfolio" id="portfolio">
-            <h1>Portfolio</h1>
-            <p>These are some of the fictional projects that I have worked on to practice, understand and showcase the technology I use.</p>
-            <div className="wrapper">
-            <a href="https://emiliasakala.github.io/Debut/" target="_blank">
+const projects = [
+  {
+    title: "Care Connect – Doctor Appointment App",
+    tags: ["UI/UX Design", "App Design", "Wireframe"],
+    image: debutCapital,
+    link: "https://emiliasakala.github.io/Debut/"
+  },
+  {
+    title: "Dental – Dentist & Dental Clinic Website UI/UX Design",
+    tags: ["UI/UX Design", "Web Design", "Wireframe"],
+    image: standard,
+    link: "https://emiliasakala.github.io/standard-freight-solutions/"
+  },
 
-                <div className="project">
+  {
+    title: "Pest Control Service Website Design",
+    tags: ["UI/UX Design", "Web Design", "Wireframe"],
+    image: supreme,
+    link: "https://emiliasakala.github.io/Supreme-pest-solutions/",
+  },
+  {
+    title: "Food Delivery App UI/UX Design",
+    tags: ["UI/UX Design", "App Design", "Wireframe"],
+    image: foodweb,
+    link: "https://emiliasakala.github.io/food-app/"
+  }
+];
 
-                    <img src={debut1} alt="" />
-                   
-                   
-                </div>
-                </a>
+function Portfolio() {
+  return (
+    <section className="featured-section">
+      <h2 className="featured-title">Featured Works</h2>
 
-            <a href="https://emiliasakala.github.io/standard-freight-solutions/" target="_blank">
+      <div className="featured-grid">
+        {projects.map((project, index) => (
+          <a
+            key={index}
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card"
+          >
+            <img src={project.image} className="project-img" alt={project.title} />
+            <div className="overlay"></div>
 
-                <div className="project">
-                    <img src={standard1} alt="" />
-                    
-                </div>
-                </a>
+            <div className="project-info">
+              <h3>{project.title}</h3>
 
-             <a href="https://emiliasakala.github.io/food-app/" target="_blank">
-
-                <div className="project">
-                    <img src={food1} alt="" />
-                    
-                </div>
-                </a>
-                <div className="project">
-                    <img src={chatbot} alt="" />
-                   
-                </div>
-
-                <a href="https://emiliasakala.github.io/Debut/" target="_blank">
-
-                <div className="project">
-
-                    <img src={debut1} alt="" />
-                    
-   
-                    </div>
-                </a>
-
-                <a href="https://emiliasakala.github.io/standard-freight-solutions/" target="_blank">
-
-                    <div className="project">
-                    <img src={standard1} alt="" />
-                    
-                </div>
-                </a>
-               
+              <div className="tags">
+                {project.tags.map((tag, i) => (
+                  <span key={i} className="tag">
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
 
-            
-        </div>
-    )
+          </a>
+        ))}
+      </div>
+    </section>
+  );
 }
+
+
+export default Portfolio;

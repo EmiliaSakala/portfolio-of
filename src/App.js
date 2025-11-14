@@ -12,6 +12,7 @@ import Skills from './components/skills/Skills';
 import Footer from './components/footer/Footer';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
+import Techstack from './components/techstack/techstack';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Profile />
       <About />
       <Skills />
+      <Techstack />
      <Portfolio />
      <Contact />
      <Footer />

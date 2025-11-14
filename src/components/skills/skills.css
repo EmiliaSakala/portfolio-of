@@ -1,80 +1,71 @@
 .skills {
-  background-color: #f5f7f8;
-  padding: 30px 0 0 0;
   text-align: center;
-}
-
-.skills h2 {
-  font-size: 50px;
-}
-
-.skills p {
-  font-size: 20px;
-}
-
-.skills .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.skills .container .card {
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 20px;
-  background-color: #15143e;
-  border: 1px solid #fff;
-}
-
-.skills .container .card p {
-  font-size: 13px;
+  padding: 80px 20px;
+  background: #15143E;
   color: #fff;
-  font-weight: 500;
 }
 
-.skills .container .card:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+.skills-title {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  position: relative;
 }
 
-
-@media screen and (max-width: 810px){
-  .skills .container{
-    flex-direction: row;
-  }
+.skills-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #b73b19;
+  margin: 10px auto 0;
 }
 
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(260px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+
+.skills-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #ff7846;
+  padding: 30px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.skills-card:hover {
+  background: rgba(0, 188, 212, 0.1);
+  transform: translateY(-5px);
+}
+
+.skills-card .icon {
+  font-size: 2rem;
+  color: #ff7846;
+  margin-bottom: 15px;
+}
+
+.skills-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.skills-card p {
+  font-size: 0.9rem;
+  color: #ccc;
+  line-height: 1.6;
+}
 @media (max-width: 600px) {
-  .skills h2 {
-    font-size: 25px;
+  .skills {
+    padding: 60px 15px;
   }
-  .skills p {
-    font-size: 17px;
+
+  .skills-title {
+    font-size: 1.5rem;
   }
-  .skills .container {
-    flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-     padding: 10px 0;
+
+  .skills-card {
+    padding: 20px 15px;
   }
 }
-/*# sourceMappingURL=skills.css.map */
