@@ -37,7 +37,7 @@ const projects = [
 function Portfolio() {
   return (
     <section className="featured-section">
-      <h2 className="featured-title">Featured Works</h2>
+      <h2 className="featured-title">Featured <span> Works</span></h2>
 
       <div className="featured-grid">
         {projects.map((project, index) => (

@@ -1,5 +1,5 @@
 .skills-section {
-  background: #0e0e18;
+  background: #f4f4f5;
   color: #fff;
   padding: 4rem 2rem;
   text-align: center;
@@ -29,7 +29,6 @@
 .skills-section .skills-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(220px, 1fr))[4];
       grid-template-columns: repeat(4, minmax(220px, 1fr));
   gap: 1.5rem;
   justify-items: center;
@@ -40,7 +39,6 @@
   padding: 2rem 1.5rem;
   border-radius: 12px;
   width: 100%;
-  max-width: 260px;
   -webkit-box-shadow: 0 0 10px rgba(255, 120, 70, 0.1);
           box-shadow: 0 0 10px rgba(255, 120, 70, 0.1);
   -webkit-transition: -webkit-transform 0.3s ease;

@@ -7,6 +7,14 @@
     background-color: #15143E;
 }
 
+.profile-container .profile-parent .profile-details .colz .colz-icon a{
+        color: #ff7846;
+        padding: 0 10px 20px 0;
+}
+
+
+
+
 .profile-parent{
     display: flex;
     align-items: center;
@@ -20,11 +28,23 @@
     font-size: 25px;
 }
 
+
+.profile-details {
+  text-align: center;   /* Centers all text inside this column */
+}
+
+.profile-details-name p {
+  margin: 10px auto;     /* Centers paragraph block */
+  max-width: 600px;      /* Keeps text neat */
+  line-height: 1.6;      
+}
+
+
 .profile-details-role{
     display: flex;
     flex-direction: column;
     margin: 5px 0 4px 0;
-    color: #fff;
+    color: #ff7846;
 }
 
 

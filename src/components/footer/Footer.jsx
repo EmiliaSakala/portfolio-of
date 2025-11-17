@@ -14,8 +14,10 @@ const Footer = () => {
                 <p>I’m a passionate web developer who enjoys creating clean, user-friendly websites and solving real-world problems through technology. I love learning new tools, building 
                     meaningful digital experiences, and helping brands grow online.</p>
 
-                    <a href="https://www.linkedin.com/in/emiliasakala/"><span><FaLinkedin /></span></a>
+                   <div className="icons">
+                     <a href="https://www.linkedin.com/in/emiliasakala/"><span><FaLinkedin /></span></a>
                     <a href="https://github.com/EmiliaSakala"><span><FaGithub /></span></a>
+                   </div>
                     </div>
             <div className="explore">
                <h4>Explore</h4>

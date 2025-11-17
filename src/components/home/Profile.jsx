@@ -21,15 +21,6 @@ function Profile() {
                     <a href="https://github.com/EmiliaSakala">
                         <FaGithub />
                     </a>
-                    <a href="#">
-                        <i className="fa fa-facebook-square"></i>
-                    </a>
-                    <a href="#">
-                        <i className="fa fa-facebook-square"></i>
-                    </a>
-                    <a href="#">
-                        <i className="fa fa-facebook-square"></i>
-                    </a>
                     </div>
                 </div>
                 <div className="profile-details-name">
@@ -37,6 +28,8 @@ function Profile() {
                         {""}
                         Hello, I'm <span className="highlighted-text">Emilia</span>
                         </span>
+                           <p>I design and develop modern, user-focused web applications that are fast, scalable, and 
+                        built to solve real problems. Turning ideas into clean, functional digital experiences is what I love doing.</p>
                     </div>
                     <div className="profile-details-role">
                         <span className="primary-text">

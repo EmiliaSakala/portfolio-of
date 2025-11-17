@@ -26,11 +26,11 @@ const Techstack = () => {
           My <span>Technology Stack</span>
         </h2>
         <p>
-          A blend of creativity and code — these are the tools that power my work and help me turn ideas into engaging digital experiences.
+          A blend of creativity and code, these are the tools that power my work and help me turn ideas into engaging digital experiences.
         </p>
       </div>
 
-      <div className="skills-grid">
+      <div className="skills-grid container">
         {skillsData.map((skill, index) => (
           <div key={index} className="skill-card">
             <div className="icon">{skill.icon}</div>

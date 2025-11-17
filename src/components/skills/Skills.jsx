@@ -5,29 +5,29 @@ import "./skills.css";
 const skills = [
   {
     icon: <FaPencilRuler />,
-    title: "UX/UI Design",
-    description: "I am a website designer from Louisiana strong web developer. I love to get new experience and learn from my designer."
+    title: "Wed Development",
+    description: "I create fast, responsive, and visually appealing websites that deliver smooth user experiences across all devices."
   },
   {
     icon: <FaLightbulb />,
-    title: "Creative Design",
-    description: "I am a website designer from Louisiana strong web developer. I love to get new experience and learn from my designer."
+    title: "Resposnsive Design",
+    description: "I ensure websites adapt beautifully to mobile, tablet, and desktop screens for a seamless browsing experience."
   },
   {
     icon: <FaCode />,
-    title: "Web Design",
-    description: "I am a website designer from Louisiana strong web developer. I love to get new experience and learn from my designer."
+    title: "Website Maintenance",
+    description: "I provide ongoing support, updates, bug fixes, and performance improvements to keep websites secure and running smoothly."
   },
   {
     icon: <FaPaintBrush />,
-    title: "Branding",
-    description: "I am a website designer from Louisiana strong web developer. I love to get new experience and learn from my designer."
+    title: "Digital Marketing Support",
+    description: "I optimize websites for search engines, set up analytics, and integrate social channels to help businesses grow online."
   },
   
   {
     icon: <FaMobileAlt />,
-    title: "Mobile App",
-    description: "I am a website designer from Louisiana strong web developer. I love to get new experience and learn from my designer."
+    title: "Technical Support",
+    description: "I help clients plan systems, choose the right technologies, and understand the best approach for their project."
   }
 ];
 
@@ -35,7 +35,7 @@ const Skills = () => {
   return (
     <section className="skills">
       <h2 className="skills-title">What I Do</h2>
-      <div className="skills-grid">
+      <div className="skills-grid container">
         {skills.map((skill, index) => (
           <div className="skills-card" key={index}>
             <div className="icon">{skill.icon}</div>
