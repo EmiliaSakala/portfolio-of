@@ -6,7 +6,6 @@ import {FaLinkedin} from 'react-icons/fa';
 import {FaEnvelope} from 'react-icons/fa';
 
 
-
 function Profile() {
   return (
     <div className="profile-container">
@@ -59,7 +58,7 @@ function Profile() {
                         <button className="btn primary-btn">
                             {""}
                             Reach Out {""} </button>
-                            <a href="ex.pdf" download="Emilia ex.pdf">
+                            <a href="/Emilia Sakala Cv.pdf" download="Emilia Sakala Cv.docx">
                             <button className="btn highlighted-btn">Get Resume</button>
                             </a>
                         </div>

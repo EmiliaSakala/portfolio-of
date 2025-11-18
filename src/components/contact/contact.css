@@ -1,63 +1,15 @@
-.contact-form{
-    background-color: red;
-    color: white;
+.contact{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact h4{
+    font-size: 20px;
     padding: 20px;
+} 
 
-}
-.container .form p{
-    padding-bottom: 15px;
-    font-weight: bold;
-}
-
-input, textarea{
-    width: 100%;
-    border: 0;
-    padding: 10px 20px;
-    box-sizing: border-box;
-}
-
-.container{
-    display: flex;
-    padding: 50px 0;
-}
-
-.send{
-    background-color: #15143e;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-weight: bold;
-    margin: 10px 0;
-}
-
-
-@media(max-width:600px){
-    .container{
-        flex-direction: column;padding: 20px;
-    }
-
-    .container .form input, textarea {
-        width: 90%;
-        border: 0;
-        padding: 10px 12px;
-        box-sizing: border-box;
-        margin: 10px 0;
-    }
-
-    .container .form p{
-        padding-bottom: 25px;
-        font-weight: bold;
-    }
-
-    .container .form .send{
-        background-color: #15143e;
-        color: #fff;
-    }
-
-    .container .text{
-        width: 96%;
-        padding: 20px 0;
-    }
-   
+.contact a{
+    color: #ff7846;
+    padding: 10px;
+    font-size: 20px;
 }
