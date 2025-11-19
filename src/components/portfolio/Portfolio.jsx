@@ -36,7 +36,7 @@ const projects = [
 
 function Portfolio() {
   return (
-    <section className="featured-section">
+    <section className="featured-section" id="portfolio">
       <div className="featured-header">
         <h2 className="featured-title">Featured <span> Works</span></h2>
       <p>Highlighting work where creative design and purposeful development come together to deliver real results.</p>

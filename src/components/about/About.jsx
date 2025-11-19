@@ -5,7 +5,7 @@ import aboutme from "../../assets/aboutme.png"
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
         <div className="container">
         
           <img src={aboutme} alt="" />

@@ -20,7 +20,7 @@ const skillsData = [
 
 const Techstack = () => {
   return (
-    <section className="skills-section">
+    <section className="skills-section" id="techstack">
       <div className="skills-header">
         <h2>
           My <span>Technology Stack</span>

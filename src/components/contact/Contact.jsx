@@ -6,7 +6,7 @@ import { FaWhatsapp, FaLinkedin } from 'react-icons/fa';
 
 export default function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
         <h4>You have a project in mind? Do get in touch with me</h4>
 
         <a href="https://wa.me/+263717986510" className="whatsapp_float" target="_blank" rel="noopener noreferrer">

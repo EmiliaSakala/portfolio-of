@@ -33,7 +33,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
       <div className="header">
         <h2 className="skills-title">What <span> I Do </span></h2>
       <p>I help individuals and businesses bring their ideas to life through thoughtful design and efficient development.</p>
