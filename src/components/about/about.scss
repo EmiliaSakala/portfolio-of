@@ -1,5 +1,6 @@
 .about{
     padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
 
 .container{
     display: flex;
@@ -12,13 +13,14 @@
     .about-text{
         padding: 0 50px;
         h2{
-            font-size: 40px;
+            font-size: 30px;
+            color: #141427;
+
+            span{
+                color: #ff7846;
+            }
         }
         
-        .role{
-            font-size: 20px;
-            font-weight: bold;
-        }
 
         .summary{
             padding: 10px 30px 10px 0;
@@ -38,10 +40,6 @@
                 span{
                     font-weight: normal;
                 }
-
-                .email{
-                    color: red;
-                }
             }
         }
     }
@@ -60,9 +58,6 @@
                 font-size: 35px;
             }
 
-            .role{
-                font-size: 30px;
-            }
             .summary {
                 padding: 10px 0px 10px 0;
                 font-size: 20px;
@@ -105,9 +100,6 @@
                 font-size: 25px;
             }
 
-            .role{
-                font-size: 17px;
-            }
             .summary {
                 padding: 10px 0px 10px 0;
             }
@@ -125,9 +117,6 @@
                 font-size: 25px;
             }
 
-            .role{
-                font-size: 17px;
-            }
             .summary {
                 padding: 10px 0px 10px 0;
             }

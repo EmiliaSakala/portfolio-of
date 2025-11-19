@@ -11,8 +11,7 @@ const About = () => {
           <img src={aboutme} alt="" />
 
           <div className="about-text">
-            <h2>About Me</h2>
-            <p className="role">I'm a software developer</p>
+            <h2>About <span> Me </span></h2>
             <p className="summary">I’m a passionate Web and Software Developer who enjoys turning ideas into functional,
                user-friendly digital solutions. I love building responsive websites, solving problems through code, and 
                continuously improving my skills in both frontend and backend development.

@@ -1,5 +1,6 @@
 .about {
   padding-top: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .about .container {
@@ -20,12 +21,12 @@
 }
 
 .about .container .about-text h2 {
-  font-size: 40px;
+  font-size: 30px;
+  color: #141427;
 }
 
-.about .container .about-text .role {
-  font-size: 20px;
-  font-weight: bold;
+.about .container .about-text h2 span {
+  color: #ff7846;
 }
 
 .about .container .about-text .summary {
@@ -53,10 +54,6 @@
   font-weight: normal;
 }
 
-.about .container .about-text .about-details p .email {
-  color: red;
-}
-
 @media screen and (max-width: 992px) {
   .about .container {
     -webkit-box-orient: vertical;
@@ -66,9 +63,6 @@
   }
   .about .container .about-text h2 {
     font-size: 35px;
-  }
-  .about .container .about-text .role {
-    font-size: 30px;
   }
   .about .container .about-text .summary {
     padding: 10px 0px 10px 0;
@@ -104,9 +98,6 @@
   .about .container .about-text h2 {
     font-size: 25px;
   }
-  .about .container .about-text .role {
-    font-size: 17px;
-  }
   .about .container .about-text .summary {
     padding: 10px 0px 10px 0;
   }
@@ -121,9 +112,6 @@
   }
   .about .container .about-text h2 {
     font-size: 25px;
-  }
-  .about .container .about-text .role {
-    font-size: 17px;
   }
   .about .container .about-text .summary {
     padding: 10px 0px 10px 0;

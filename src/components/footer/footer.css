@@ -1,6 +1,6 @@
 .footer .footer-inner{
     /* background-image: url("../../img/Group\ 1.png"); */
-    background-color: #15143e;
+    background-color: #141427;
     background-position: center top;
     background-repeat: no-repeat;
     text-align: center;
@@ -16,10 +16,11 @@
 
 .infor h4{
     font-size: 25px;
+    color: #ff7846;
 }
 
 .infor h3{
-    color: #ffffff;
+    color: #ff7846;
     font-size: 35px;
 
 }
@@ -39,7 +40,7 @@
 }
 
 .explore h4{
-    font-size: 25px;
+    font-size: 25px;color: #ff7846;
 }
 
 .explore ul li a{

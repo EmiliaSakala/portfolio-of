@@ -34,7 +34,10 @@ const skills = [
 const Skills = () => {
   return (
     <section className="skills">
-      <h2 className="skills-title">What I Do</h2>
+      <div className="header">
+        <h2 className="skills-title">What <span> I Do </span></h2>
+      <p>I help individuals and businesses bring their ideas to life through thoughtful design and efficient development.</p>
+      </div>
       <div className="skills-grid container">
         {skills.map((skill, index) => (
           <div className="skills-card" key={index}>

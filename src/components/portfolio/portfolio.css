@@ -1,16 +1,22 @@
 .featured-section {
   padding: 60px 20px;
   background: #fff;
-}
-
-.featured-section .featured-title {
   text-align: center;
-  font-size: 36px;
-  color: #000000;
-  margin-bottom: 40px;
 }
 
-.featured-section .featured-title span {
+.featured-section .featured-header {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+.featured-section .featured-header .featured-title {
+  text-align: center;
+  font-size: 30px;
+  color: #141427;
+  padding: 15px 0;
+}
+
+.featured-section .featured-header .featured-title span {
   color: #ff7846;
 }
 
