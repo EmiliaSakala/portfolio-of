@@ -13,6 +13,7 @@
 .skills-section .skills-header h2 {
   font-size: 2rem;
   font-weight: 700;
+  color: #141427;
 }
 
 .skills-section .skills-header h2 span {
@@ -21,7 +22,7 @@
 
 .skills-section .skills-header p {
   margin-top: 1rem;
-  color: #b3b3b3;
+  color: #000000;
   font-size: 0.95rem;
   line-height: 1.6;
 }
@@ -29,7 +30,8 @@
 .skills-section .skills-grid {
   display: -ms-grid;
   display: grid;
-      grid-template-columns: repeat(4, minmax(220px, 1fr));
+  -ms-grid-columns: (minmax(260px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
   justify-items: center;
 }
@@ -85,5 +87,14 @@
   font-size: 0.9rem;
   color: #ff7846;
   font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+  .skills-section .skills-header h2 {
+    font-size: 30px;
+  }
+  .skills-section .skills-header p {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=techstack.css.map */

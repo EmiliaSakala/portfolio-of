@@ -6,9 +6,12 @@
 .featured-section .featured-title {
   text-align: center;
   font-size: 36px;
-  font-weight: bold;
-  color: #3b82f6;
+  color: #000000;
   margin-bottom: 40px;
+}
+
+.featured-section .featured-title span {
+  color: #ff7846;
 }
 
 .featured-section .featured-grid {

@@ -20,7 +20,7 @@
 }
 
 .about .container .about-text h2 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .about .container .about-text .role {
@@ -57,12 +57,58 @@
   color: red;
 }
 
+@media screen and (max-width: 992px) {
+  .about .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .about .container .about-text h2 {
+    font-size: 35px;
+  }
+  .about .container .about-text .role {
+    font-size: 30px;
+  }
+  .about .container .about-text .summary {
+    padding: 10px 0px 10px 0;
+    font-size: 20px;
+  }
+  .about .container .about-text .about-details p {
+    font-size: 18px;
+  }
+  .about .container .about-text {
+    padding: 10px;
+  }
+  .about .container img {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 810px) {
   .about .container .about-text {
     padding: 10px;
   }
   .about .container img {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .about .container .about-text h2 {
+    font-size: 25px;
+  }
+  .about .container .about-text .role {
+    font-size: 17px;
+  }
+  .about .container .about-text .summary {
+    padding: 10px 0px 10px 0;
   }
 }
 
