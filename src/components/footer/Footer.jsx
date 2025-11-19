@@ -9,6 +9,8 @@ import {FaGithub} from 'react-icons/fa';
 const Footer = () => {
     return (
         <div className="footer">
+
+            <div className="footer-inner">
             <div className="infor">
                 <h3>Emilia.</h3>
                 <p>I’m a passionate web developer who enjoys creating clean, user-friendly websites and solving real-world problems through technology. I love learning new tools, building 
@@ -44,8 +46,14 @@ const Footer = () => {
                 <span><FaMapMarker /> Harare, Zimbabwe</span> 
                 </div>
             </div>
-            
+            </div>
+
+            <div className="copyright">
+                <p>© 2025 <span>Royal Priesthood</span> . All rights reserved.</p>
+            </div>
         </div>
+  
+   
     );
 }
 

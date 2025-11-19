@@ -22,9 +22,11 @@ in full-stack development and the MERN stack (MongoDB, Express, React, Node.js)<
               <hr />
 
               <div className="about-details">
-                <p>Name:<span> Emilia Sakala</span></p>
-                <p>Email:<span className="email"> emiliasakala18@gmail.com</span></p>
-                <p>From:<span> Harare, Zimbabwe</span></p>
+
+                <p>Experience:<span> 1+ Years Working</span></p>
+                <p>Education:<span> Bachelor of Science in Software Engineering</span></p> 
+
+                
               </div>
           </div>
           

@@ -1,4 +1,4 @@
-.footer{
+.footer .footer-inner{
     /* background-image: url("../../img/Group\ 1.png"); */
     background-color: #15143e;
     background-position: center top;
@@ -62,6 +62,17 @@
 
 .contact span{
     padding: 8px  0;
+}
+
+.footer .copyright{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0f0e2e;
+    color: #ffffff;
+}
+
+.footer .copyright p span{
+    color: #ff7846;
 }
 
 @media screen and (max-width:768px) {
