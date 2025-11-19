@@ -29,7 +29,7 @@
 
     .skills-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(220px, 1fr));
+    grid-template-columns:  repeat(auto-fit, minmax(260px, 1fr));
     gap: 1.5rem;
     justify-items: center;
   }
@@ -79,5 +79,15 @@
       color: #ff7846;
       font-weight: 600;
     }
+  }
+ }
+
+
+ @media screen and (max-width:992px) {
+  .skills-section .skills-header h2{
+    font-size: 50px;
+  }
+  .skills-section .skills-header p{
+    font-size: 26px;
   }
  }

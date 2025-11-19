@@ -13,3 +13,22 @@
     padding: 10px;
     font-size: 20px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .contact h4{
+        font-size: 28px;
+    } 
+
+    .contact a{
+        font-size: 26px;
+    }
+    
+}
+
+@media screen and (max-width:992px){
+    .contact h4{
+        font-size: 30px;
+ 
+    }
+}

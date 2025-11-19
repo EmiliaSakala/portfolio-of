@@ -8,27 +8,27 @@ import foodweb from "../../assets/foodweb.png"
 
 const projects = [
   {
-    title: "Care Connect – Doctor Appointment App",
-    tags: ["UI/UX Design", "App Design", "Wireframe"],
+    title: "Debut Capital",
+    tags: ["UI/UX Design", "HTML", "CSS", "JavaScript"],
     image: debutCapital,
     link: "https://emiliasakala.github.io/Debut/"
   },
   {
-    title: "Dental – Dentist & Dental Clinic Website UI/UX Design",
-    tags: ["UI/UX Design", "Web Design", "Wireframe"],
+    title: "Standard Freight Solutions Website Design",
+    tags: ["UI/UX Design", "HTML", "CSS", "JavaScript"],
     image: standard,
     link: "https://emiliasakala.github.io/standard-freight-solutions/"
   },
 
   {
     title: "Pest Control Service Website Design",
-    tags: ["UI/UX Design", "Web Design", "Wireframe"],
+    tags: ["UI/UX Design", "React JS", "SASS", "HTML"],
     image: supreme,
     link: "https://emiliasakala.github.io/Supreme-pest-solutions/",
   },
   {
     title: "Food Delivery App UI/UX Design",
-    tags: ["UI/UX Design", "App Design", "Wireframe"],
+    tags: ["HTML", "CSS", "JavaScript"],
     image: foodweb,
     link: "https://emiliasakala.github.io/food-app/"
   }

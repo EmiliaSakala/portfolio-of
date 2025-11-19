@@ -92,6 +92,8 @@
     left: 0;
 } */
 
+
+
 @media screen and (max-width: 1110px){
     .profile-picture{
         margin: 0 0 0 80px;
@@ -113,7 +115,11 @@
     
 }
 
-@media screen and (max-width: 910px){
+@media screen and (max-width: 992px){
+    .profile-container{
+        height: 60vh;
+    }
+
     .profile-picture{
         height: 320px;
         width: 320px;
@@ -133,7 +139,7 @@
 
     .profile-options{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .profile-options button{
@@ -146,6 +152,20 @@
     .profile-details-name, .profile-details-role{
         text-align: center;
     }
+}
+
+@media screen and (max-width: 768px){
+    .profile-picture{
+        height: 500px;
+        width: 500px;
+    }
+
+    .profile-options{
+        display: flex;
+        justify-content: center;
+    }
+
+   
 }
 
 
