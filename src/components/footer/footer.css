@@ -76,31 +76,31 @@
 }
 
 @media screen and (max-width:768px) {
-    .footer{
+    .footer .footer-inner{
         flex-direction: column;
         padding: 20px 0;
     } 
     
-    .footer .infor{
+    .footer .footer-inner .infor{
         padding-bottom: 20px;
     }
     
-    .footer .infor h3{
+    .footer .footer-inner .infor h3{
         font-size: 30px;
     }
-    .footer .infor p{
+    .footer .footer-inner .infor p{
         padding: 25px;
     }
 
-    .footer .explore h4{
+    .footer .footer-inner .explore h4{
         font-size: 22px;
     }
 
-    .footer .explore{
+    .footer .footer-inner .explore{
         padding-bottom: 20px
     }
 
-    .footer .explore ul li a{
+    .footer.footer-inner .explore ul li a{
         font-size: 20px;
     }
 }
