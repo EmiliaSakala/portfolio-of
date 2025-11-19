@@ -116,9 +116,7 @@
 }
 
 @media screen and (max-width: 992px){
-    .profile-container{
-        height: 100vh;
-    }
+    
 
     .profile-picture{
         height: 320px;
@@ -155,10 +153,7 @@
 }
 
 @media screen and (max-width: 768px){
-    .profile-picture{
-        height: 500px;
-        width: 500px;
-    }
+    
 
     .profile-options{
         display: flex;
